@@ -1,0 +1,87 @@
+## 忽略 Visual Studio 和 .NET 相关文件
+
+# 用户特定文件
+*.user
+*.userosscache
+*.suo
+*.lock.json
+*.vs/
+.vscode/
+
+# 构建输出目录
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+# NuGet 包和缓存
+*.nupkg
+packages/
+**/nuget.config
+.nuget/
+**/obj/*.csproj.nuget.*
+**/obj/*.csproj.dotnet.*
+
+# 运行时生成的文件
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.log
+*.tmp
+
+# 测试相关文件
+TestResult.xml
+coverage.*
+*.coverage
+*.coveragexml
+
+# IDE 和编辑器配置文件
+*.sln.ide
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+*.xproj.user
+*.docstates
+
+# Rider 编辑器
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Resharper 缓存和配置
+_ReSharper.*
+*.ReSharper
+*.DotSettings.user
+
+# 其他工具
+*.bak
+*.cache
+*.orig
+*~
+~*
+*.swp
+*.tmp
+*.DS_Store
+
+# Docker
+docker-compose.override.yml
+.dockerenv
+.dockerignore
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+logs/
+*.log
+log.txt
+
+# 自定义忽略规则
+# 如果有其他需要忽略的文件或目录，可以在这里添加
